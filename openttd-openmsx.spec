@@ -32,7 +32,7 @@ Darmowy zastępnik dla oryginalnej muzki do gry Transport Tycoon Deluxe
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	INSTALL_DIR="%{_datadir}/openttd/data" \
+	INSTALL_DIR="%{_datadir}/openttd/gm" \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
@@ -41,4 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc docs/{changelog.txt,readme.txt}
-%{_datadir}/openttd/data/openmsx-%{version}
+%{_datadir}/openttd/gm/openmsx-%{version}
