@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 	INSTALL_DIR="%{_datadir}/openttd/gm" \
 	DESTDIR=$RPM_BUILD_ROOT
 
+# packaged in doc
+rm -rf $RPM_BUILD_ROOT%{_datadir}/openttd/gm/openmsx-%{version}/*.txt
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
