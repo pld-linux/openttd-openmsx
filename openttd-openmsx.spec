@@ -8,6 +8,8 @@ Group:		Applications/Games
 Source0:	http://bundles.openttdcoop.org/openmsx/releases/openmsx-%{version}-source.tar.gz
 # Source0-md5:	f03e93d4818eaa6035c8e8f6056bbef1
 URL:		http://wiki.openttd.org/OpenMSX
+BuildRequires:	python
+BuildRequires:	python-modules
 BuildRequires:	sed >= 4.0
 Requires:	openttd-data
 BuildArch:	noarch
