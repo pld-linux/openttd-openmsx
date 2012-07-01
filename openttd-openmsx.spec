@@ -2,7 +2,7 @@ Summary:	Open source replacement for the original Transport Tycoon Deluxe (TTD) 
 Summary(pl.UTF-8):	Darmowy zastępnik dla oryginalnej muzki do gry Transport Tycoon Deluxe (TTD)
 Name:		openttd-openmsx
 Version:	0.3.1
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/Games
 Source0:	http://bundles.openttdcoop.org/openmsx/releases/%{version}/openmsx-%{version}-source.tar.gz
@@ -46,4 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc docs/{changelog.txt,readme.txt}
+%dir %{_datadir}/openttd/gm
 %{_datadir}/openttd/gm/openmsx-%{version}
