@@ -2,11 +2,11 @@ Summary:	OpenMSX is an open source base music set for OpenTTD
 Summary(pl.UTF-8):	OpenMSX jest podstawowym, otwartoźródłowym zestawem muzyki dla OpenTTD
 Name:		openttd-openmsx
 Version:	0.4.2
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/Games
 Source0:	https://cdn.openttd.org/openmsx-releases/%{version}/openmsx-%{version}-source.tar.xz
-# Source0-md5:	b014f0887fdd6d3a6511e6f4a3656fea
+# Source0-md5:	3741ec7b1370690d0bcf412e2531553a
 URL:		http://wiki.openttd.org/OpenMSX
 BuildRequires:	python
 BuildRequires:	python-modules
